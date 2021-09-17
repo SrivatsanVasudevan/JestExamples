@@ -1,0 +1,9 @@
+{
+  "name": "JestExamples",
+  "version": "1.0.0",
+  "description": "Testing Jest out",
+  "main": "index.js",
+  "repository": "https://github.com/SrivatsanVasudevan/JestExamples.git",
+  "author": "SrivatsanVasudevan <srivatsan.vasudevan.sv@gmail.com>",
+  "license": "MIT"
+}

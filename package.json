@@ -1,9 +1,26 @@
 {
-  "name": "JestExamples",
+  "name": "jestexamples",
   "version": "1.0.0",
   "description": "Testing Jest out",
   "main": "index.js",
-  "repository": "https://github.com/SrivatsanVasudevan/JestExamples.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SrivatsanVasudevan/JestExamples.git"
+  },
   "author": "SrivatsanVasudevan <srivatsan.vasudevan.sv@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SrivatsanVasudevan/JestExamples/issues"
+  },
+  "homepage": "https://github.com/SrivatsanVasudevan/JestExamples#readme",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "jest": "^27.2.0"
+  }
 }
